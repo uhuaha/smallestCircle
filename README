@@ -1,0 +1,13 @@
+This Python program calculates the smallest circle sourrounding a finite set of points by using Welzl's algorithm
+implemented according to the pseudo code at https://en.wikipedia.org/wiki/Smallest-circle_problem#Welzl's_algorithm.
+After the algorithm was successful the data points and the circle are visualized.
+
+The code was compiled using Python 3.6.
+
+The following additional libraries are used
+- matplotlib.pyplot
+- random
+- math
+- sympy.geometry
+
+To run the code execute "~$ python main.py" in the shell.
