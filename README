@@ -2,6 +2,11 @@ This Python program calculates the smallest circle sourrounding a finite set of 
 implemented according to the pseudo code at https://en.wikipedia.org/wiki/Smallest-circle_problem#Welzl's_algorithm.
 After the algorithm was successful the data points and the circle are visualized.
 
+There is a smallest circle in each plane: in the x-y, y-z and x-z plane. These three planes are comfortable to use
+and implement. In the end, every arbitrary plane in the 3D space can be used. Then, the projection of each triangle
+onto this arbitrary plane must be calculated beforehand. There is an infinite amount of such planes which is why only
+the three usual planes (see above) are considered and can be selected via the variable "dimToSkip".
+
 The code was compiled using Python 3.6.
 
 The following additional libraries are used
@@ -11,3 +16,4 @@ The following additional libraries are used
 - sympy.geometry
 
 To run the code execute "~$ python main.py" in the shell.
+
